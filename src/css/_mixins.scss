@@ -67,4 +67,15 @@
     border-top: $size solid transparent;  
   }
 }
-  
+
+// content
+@mixin inputEdit($height) {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: $height;
+  background: $white;
+  border: 2px solid $f2eW1-seventh;
+  border-radius: 5px;
+  background-color: $f2eW1-fifth;
+}

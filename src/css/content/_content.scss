@@ -1,8 +1,7 @@
+
 ul{
     padding: 0;
 }
-
-
 .editBlock {
     padding: 0 80px;
 }
@@ -28,14 +27,7 @@ ul{
     position: relative;
     margin-bottom: 24px;
     .inputEdit{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 102px;
-        background:$white;
-        border: 2px solid $f2eW1-seventh;
-        border-radius: 5px;
-        background-color: $f2eW1-fifth;
+       @include inputEdit(102px)
     }
 }
 
@@ -45,7 +37,6 @@ ul{
         position: relative;
         bottom: 3px;
         transform: scale(2);
-        
     }
     label{
        padding: 0 25px;
@@ -72,7 +63,6 @@ ul{
         input {
             display: none;
         }
-       
     }
 }
 
@@ -143,7 +133,6 @@ ul{
         display: flex;
         justify-content: space-evenly;
     .cel{
-        // background-color: #FFFFFF;
         border: 1px solid white;
         width: 450px;
         height: 55px;
@@ -163,13 +152,7 @@ ul{
 }
 
 .inputEdit {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
     height: 65px;
-    background: $white;
-    border: 2px solid $f2eW1-seventh;
-    border-radius: 5px;
     .star{
         color: $f2eW1-fourth;
     }
@@ -180,14 +163,7 @@ ul{
     position: relative;
     margin-bottom: 24px;
     .inputEdit {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 102px;
-        background: $white;
-        border: 2px solid $f2eW1-seventh;
-        border-radius: 5px;
-        background-color: $f2eW1-fifth;
+       @include inputEdit(102px);
          .edit {
              color: black;
          }
