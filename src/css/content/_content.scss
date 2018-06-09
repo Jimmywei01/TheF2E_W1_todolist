@@ -2,6 +2,7 @@ ul{
     padding: 0;
 }
 
+
 .editBlock {
     padding: 0 80px;
 }
@@ -63,9 +64,15 @@ ul{
     li {
         float: left;
         padding-right: 24px;
-    .star{
-            border: 2px solid #000000;
+    }
+    .edit {
+        color: $f2eW1-first;
+    }
+    .star {
+        input {
+            display: none;
         }
+       
     }
 }
 
@@ -181,7 +188,9 @@ ul{
         border: 2px solid $f2eW1-seventh;
         border-radius: 5px;
         background-color: $f2eW1-fifth;
-
+         .edit {
+             color: black;
+         }
     }
     .delEdit{
         display: flex;
@@ -228,4 +237,7 @@ ul{
             padding: 0;
             color: $f2eW1-eighth;
         }
+}
+.delEdit .edit{
+    color: #000000;
 }

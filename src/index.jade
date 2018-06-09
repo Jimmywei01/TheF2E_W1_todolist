@@ -7,15 +7,14 @@ block header
         .nav
             ul
                 li
-                    a(href="#").my My Tasks
+                    a(href="#tab-1").my My Tasks
                 li 
-                    a(href="#") In Progress
+                    a(href="#tab-2") In Progress
                 li 
-                    a(href="#") Completed
+                    a(href="#tab-3") Completed
             hr
 
-block content
- selection#table-1   
+block content 
     #content
       .countainer
        .editBlock 
@@ -31,10 +30,10 @@ block content
               ul.editIcon
                 li.del
                   <i class="fas fa-times fa-2x"></i>
-                li.star
-                  <i class="fas fa-star fa-2x"></i>
+                li.star 
+                    <i class="fas fa-star fa-2x"></i>
                 li.edit
-                  <i class="far fa-edit fa-2x"></i>
+                  <i class="fas fa-edit fa-2x"></i>
             .categories
                   .deadline<i class="far fa-calendar-alt"></i>
                     p Deadline
@@ -55,8 +54,6 @@ block content
                 <i class="fas fa-times"></i> Cancel
               button(type="button").sav 
                 <i class="fas fa-plus"></i> Save
-   
-        
         .record
             .inputEdit
               .addLine
@@ -102,8 +99,8 @@ block content
                 li.edit
                   <i class="far fa-edit fa-2x"></i>
             .choose-2
-          
-                .file<i class="far fa-file"></i>
+                  .file<i class="far fa-file"></i>
+                
            
         //-     ul
         //-         li
